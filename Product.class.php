@@ -13,5 +13,10 @@ class Product {
     {
     	return this->name;
     }
+    
+    public function setProductName($name)
+    {
+    	this->name = $name;
+    }
 }
 ?>
