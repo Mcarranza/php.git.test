@@ -7,5 +7,5 @@
  */
  require_once("Product.class.php");
  $product = new Product('Cereal');
- echo $product.getProductName();
+ echo $product->getProductName();
 ?>
