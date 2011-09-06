@@ -5,6 +5,7 @@
  * To change the template for this generated file go to
  * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
- 
- echo "Hola Mundo";
+ require_once("Product.class.php");
+ $product = new Product('Cereal');
+ echo $product.getProductName();
 ?>
