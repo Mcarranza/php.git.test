@@ -2,16 +2,16 @@
 
 class Product {
 	
-	private $name = null;
+	public $name;
 
     function Product($name) {
     	
     	this.$name = $name;
     }
     
-    function getProductName()
+    public function getProductName()
     {
-    	return this.$name;
+    	
     }
 }
 ?>
